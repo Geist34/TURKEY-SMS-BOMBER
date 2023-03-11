@@ -4,7 +4,7 @@ from os import system
 from requests import get
 import urllib3
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
-r = get("https://raw.githubusercontent.com/yildirimlord/BtcTurk-SmsBomber/main/sms.py").text
+r = get("https://raw.githubusercontent.com/75hz1/TURKEY-SMS-BOMBER/main/sms.py").text
 with open("sms.py", "r", encoding="utf-8") as f:
     read = f.read()
 if read == r:
