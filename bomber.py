@@ -24,7 +24,7 @@ while 1:
     system("cls||clear")
     print("""{}
   
-  SMS BOMBER!
+  SMS BOMBER +90
 
      
     Sms: {}                                      
