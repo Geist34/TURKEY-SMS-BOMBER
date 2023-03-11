@@ -24,11 +24,7 @@ while 1:
     system("cls||clear")
     print("""{}
   
-▀▀▀▀▀▀▀▀▀▀▀▀▀▀
-▀ ▀
-▀ B0MB3RR ▀
-▀ ▀
-▀▀▀▀▀▀▀▀▀▀▀▀▀▀          
+  SMS BOMBER!     
     Sms: {}                                      
     """.format(Fore.LIGHTRED_EX, len(servisler_sms), Style.RESET_ALL, Fore.CYAN))
     print(Fore.LIGHTGREEN_EX+"{/} "+Style.RESET_ALL+"Katkıda bulunanlar: "+Fore.LIGHTGREEN_EX+Style.BRIGHT+"75hz\n"+Style.RESET_ALL)
