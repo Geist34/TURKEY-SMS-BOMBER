@@ -172,7 +172,7 @@ class SendSms():
 
                 except :
 
-                     print(f"{Fore.LIGHTRED_EX}[-] {Style.RESET_ALL}Başarılı! --> kigili.com "+numara)
+                     print(f"{Fore.LIGHTRED_EX}[-] {Style.RESET_ALL}Başarısız! --> kigili.com "+numara)
 
                 uygulanan_nolar += 1
 
