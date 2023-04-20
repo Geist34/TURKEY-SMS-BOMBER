@@ -374,10 +374,6 @@ class SendSms():
 
                     continue
 
-         
-
-    
-
     #istegelsin.com
 
     def IsteGelsin(self):
